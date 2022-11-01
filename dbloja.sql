@@ -51,4 +51,11 @@ create database dbloja;
     	select * from tbUsuarios;
 
 
+        -- alterando os registros das tabelas 
+        
+        update tbUsuarios set senha = '789658452' where coduso = 2;
+
+        	select * from tbUsuarios;
+
+
    
